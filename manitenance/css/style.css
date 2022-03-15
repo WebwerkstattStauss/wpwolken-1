@@ -3,6 +3,35 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat_Medium.woff2") format("woff2"),
+    url("/fonts/Montserrat_Medium.woff") format("woff"),
+    url("/fonts/Montserrat_Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat_Bold.woff2") format("woff2"),
+    url("/fonts/Montserrat_Bold.woff") format("woff"),
+    url("/fonts/Montserrat_Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat_Regular.woff2") format("woff2"),
+    url("/fonts/Montserrat_Regular.woff") format("woff"),
+    url("/fonts/Montserrat_Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 html {
   font-size: 16px;

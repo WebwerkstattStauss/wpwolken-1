@@ -3,10 +3,39 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat_Medium.woff2") format("woff2"),
+    url("/fonts/Montserrat_Medium.woff") format("woff"),
+    url("/fonts/Montserrat_Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat_Bold.woff2") format("woff2"),
+    url("/fonts/Montserrat_Bold.woff") format("woff"),
+    url("/fonts/Montserrat_Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat_Regular.woff2") format("woff2"),
+    url("/fonts/Montserrat_Regular.woff") format("woff"),
+    url("/fonts/Montserrat_Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 html {
-  font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   background: rgba(208, 209, 117, 0.47);
 }
 
@@ -18,12 +47,13 @@ h1 {
   top: calc(50% - 146px / 2 - 260px);
 
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 60px;
   line-height: 73px;
   text-align: center;
 
   color: #d87c28;
+  z-index: 1;
 }
 
 .logo {
@@ -32,9 +62,11 @@ h1 {
   height: 330px;
   left: calc(50% - 524px / 2);
   top: calc(50% - 283px / 2 + 19.5px);
+  z-index: 1;
 }
 
 h2 {
+  font-family: "Montserrat", sans-serif;
   position: absolute;
   width: 919px;
   height: 49px;
@@ -42,7 +74,7 @@ h2 {
   top: calc(50% - 49px / 2 + 251.5px);
 
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 40px;
   line-height: 49px;
   /* identical to box height */
@@ -54,6 +86,7 @@ h2 {
 }
 
 #kontakt-btn {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -66,7 +99,7 @@ h2 {
   top: calc(50% - 52px / 2 + 358px);
 
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: #d87c28;
