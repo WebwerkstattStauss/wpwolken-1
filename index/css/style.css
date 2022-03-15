@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background: rgba(208, 209, 117, 0.47);
+}
+
+h1 {
+  position: absolute;
+  width: 934px;
+  height: 146px;
+  left: calc(50% - 934px / 2);
+  top: calc(50% - 146px / 2 - 260px);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  text-align: center;
+
+  color: #d87c28;
+}
+
+.logo {
+  position: absolute;
+  width: 524px;
+  height: 330px;
+  left: calc(50% - 524px / 2);
+  top: calc(50% - 283px / 2 + 19.5px);
+}
+
+h2 {
+  position: absolute;
+  width: 919px;
+  height: 49px;
+  left: calc(50% - 919px / 2 - 0.5px);
+  top: calc(50% - 49px / 2 + 251.5px);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(149, 122, 28, 0.8);
+  z-index: 1;
+}
+
+#kontakt-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+
+  position: absolute;
+  width: 113px;
+  height: 52px;
+  left: calc(50% - 113px / 2 + 4.5px);
+  top: calc(50% - 52px / 2 + 358px);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #d87c28;
+
+  /* Primary background color */
+
+  background: #ffffff;
+  border: 2px solid #d87c28;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+
+.launch {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 399px;
+  height: 801px;
+
+  z-index: 0;
+}

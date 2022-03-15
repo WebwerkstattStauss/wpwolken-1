@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background: rgba(208, 209, 117, 0.47);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.logo {
+  position: absolute;
+  width: 302px;
+  height: 200px;
+  left: calc(50% - 302px / 2);
+  top: calc(50% - 200px / 2 - 163.5px);
+
+  z-index: 1;
+}
+h1 {
+  position: absolute;
+  width: 1115px;
+  height: 67px;
+  left: calc(50% - 1115px / 2 + 0.5px);
+  top: calc(50% - 67px / 2 + 4.5px);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+
+  color: #d87c28;
+  z-index: 1;
+}
+
+h2 {
+  position: absolute;
+  width: 919px;
+  height: 49px;
+  left: calc(50% - 919px / 2 - 0.5px);
+  top: calc(50% - 49px / 2 + 251.5px);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(149, 122, 28, 0.8);
+  z-index: 1;
+}
+
+#kontakt-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+
+  position: absolute;
+  width: 113px;
+  height: 52px;
+  left: calc(50% - 113px / 2 + 4.5px);
+  top: calc(50% - 52px / 2 + 358px);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #d87c28;
+
+  /* Primary background color */
+
+  background: #ffffff;
+  border: 2px solid #d87c28;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+  z-index: 1;
+}
+
+.disconect {
+  /*background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+*/
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  bottom: 0%;
+  z-index: 0;
+}
